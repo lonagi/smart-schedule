@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="https://ex.nvg-group.com/libs/mdb/4.1.1/f.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta name="theme-color" content="#DE09E1" />
 	<meta name="msapplication-TileColor" content="#DE09E1">
 	<script src="https://ex.nvg-group.com/libs/jquery/3.4.1/f.min.js"></script>
@@ -14,67 +15,22 @@
 <body>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-	body
-	{
-		font-family: 'Montserrat', sans-serif;
-		background: #202A38;
-	}
-
-	table.iksweb
-	{
-		text-decoration: none;
-		border-collapse:collapse;
-		width:100%;
-		text-align:center;
-	}
-
 	table.iksweb th
 	{
-		font-weight:500;
-		font-size:21px;
-		color:#000;
 		background-color:#DE09E1;
 	}
-
-	table.iksweb td
-	{
-		font-size:22px;
-		color:white;
-		transition: all 0.1s;
-	}
-
-	table.iksweb tr td:nth-of-type(1) {
-		font-weight: bold;
-	}
-
 	table.iksweb td,
 	table.iksweb th
 	{
-		white-space:pre-wrap;
-		padding:16px 12px;
-		line-height:17px;
-		vertical-align: middle;
 		border: 2px solid #DE09E1;
 	}
-
-	table.iksweb td:hover
+	table.iksweb tr td:nth-of-type(1) {
+		font-weight: bold;
+	}
+	table.iksweb td
 	{
-		background-color:#2C3A4C;
-		/*color:black;*/
-		cursor:pointer;
+		font-size:22px;
 	}
-	li a:hover {
-		cursor: pointer;
-		text-decoration: underline !important;
-	}
-
-	.text-warning {
-		color: yellow !important;
-	}
-
-	.tooltip > .tooltip-inner {background-color: #000;}
 </style>
 
 <div class="container mt-5" style="overflow: auto;">
@@ -137,42 +93,11 @@
     	<td></td>
     	<td>Четверг</td>
     </tr>
-    
-
 </tbody>
 </table>
-
 </div>
 
-<script type="text/javascript">
-	
-var a = [];
-
-$(".subj").each(function(e,i){
-	let countDownDate = new Date($(i).attr("tt")).getTime();
-
-	let x = setInterval(function() {
-		let now = new Date().getTime();
-		let distance = countDownDate - now;
-		let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-		let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-		let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-	
-		$(i).children("td:nth-of-type(4)").text(days + "д " + hours + "ч " + minutes + "м " + seconds + "с");
-	
-		if (distance < 0) {
-			clearInterval(a[e]);
-			$(i).children("td").css("background","#68066f");
-			$(i).children("td").css("text-decoration","line-through");
-			$(i).children("td:nth-of-type(4)").text("Ну всё");
-		}
-	}, 1000);
-
-	a.push(x);
-});
-
-</script>
+<script src="examen.js"></script>
 
 </body>
 </html>
