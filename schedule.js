@@ -29,27 +29,35 @@ function dddd() {
     var oneweek = oneday*7;
     	ahour	= 0;
 
-    if(month.toString().length == 1)
-        month = '0'+month;
-    if(day.toString().length == 1)
-        day = '0'+day; 
-    if(hour.toString().length == 1)
-        hour = '0'+hour;
-    if(minute.toString().length == 1)
-        minute = '0'+minute;
-    if(second.toString().length == 1)
-        second = '0'+second;
-
 	var datetime = day+"."+month+"."+year;
 	var week = Math.floor((ts1 - ts0)/oneweek*1000)+1;
 	var week2 = Math.floor((ts1 - ts0)/(oneweek*2)*1000)+1;
 
-	$("#timetoday").text(datetime);
+	var start_week = new Date( (ts0+(week-1)*6*24*3600)*1000 );
+	var end_week = new Date(start_week.getTime()+6*oneday);
+
+	var day0 = start_week.getDate();
+	var month0 = start_week.getMonth()+1;
+	var day1 = end_week.getDate();
+	var month1 = end_week.getMonth()+1;
+
+    if(start_week.getMonth().toString().length == 1)
+        month0 = '0'+month0;
+    if(start_week.getDate().toString().length == 1)
+        day0 = '0'+day0; 
+
+    if(end_week.getMonth().toString().length == 1)
+        month1 = '0'+month1;
+    if(end_week.getDate().toString().length == 1)
+        day1 = '0'+day1; 
+
+
+	$("#timetoday").text("Неделя: "+day0+"."+month0+" - "+day1+"."+month1);
 	
-	if(week%2!=0)
-		$("#evenness").html("<span class='text-info'>Нечётная неделя</span>");
+	if(week%2==0)
+		$("#evenness").html("<span class='text-info'>Нечётная</span>");
 	else
-		$("#evenness").html("<span class='text-danger'>Чётная неделя</span>");
+		$("#evenness").html("<span class='text-danger'>Чётная</span>");
 
 	var group_number = (week%2)+2-2*(week%2);
 	var group_number2 = 3-group_number;
@@ -58,8 +66,8 @@ function dddd() {
 	var _2group_number2 = 3-_2group_number;
 
 	$(".asdn").attr("title","Гр. "+group_number);
-	$(".ac").attr("title","Группа "+group_number);
-	$(".ep").attr("title","Группа "+group_number2);
+	$(".ac").attr("title","Гр. "+group_number);
+	$(".ep").attr("title","Гр. "+group_number2);
 
 	if(_now >= onehour*8 && _now <= onehour*9.5)
 		ahour=2;
