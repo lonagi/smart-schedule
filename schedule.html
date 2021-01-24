@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="https://ex.nvg-group.com/libs/mdb/4.1.1/f.min.css">
+	<link rel="stylesheet" type="text/css" href="schedule.css">
 	<meta name="theme-color" content="#BFFF61" />
 	<meta name="msapplication-TileColor" content="#BFFF61">
 	<link rel="image_src" href="1vk_share.png">
@@ -17,72 +18,6 @@
 	<script src="https://ex.nvg-group.com/libs/bootstrap/4.3.1/f.min.js"></script>
 </head>
 <body>
-
-<style>
-	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-	body
-	{
-		font-family: 'Montserrat', sans-serif;
-		background: #202A38;
-	}
-
-	table.iksweb
-	{
-		text-decoration: none;
-		border-collapse:collapse;
-		width:100%;
-		text-align:center;
-	}
-
-	table.iksweb th
-	{
-		font-weight:500;
-		font-size:21px;
-		color:#000;
-		background-color:#BFFF61;
-	}
-
-	table.iksweb td
-	{
-		font-size:17px;
-		color:white;
-		transition: all 0.1s;
-	}
-
-	table.iksweb td,
-	table.iksweb th
-	{
-		white-space:pre-wrap;
-		padding:16px 12px;
-		line-height:17px;
-		vertical-align: middle;
-		border: 2px solid #5d5d5d;
-	}
-
-	table.iksweb td:hover
-	{
-		background-color:#2C3A4C;
-		/*color:black;*/
-		cursor:pointer;
-	}
-
-	.tooltip_sch {
-		padding: 10px;
-		font-size: 20px;
-	}
-
-	li a:hover {
-		cursor: pointer;
-		text-decoration: underline !important;
-	}
-
-	.text-warning {
-		color: yellow !important;
-	}
-
-	.tooltip > .tooltip-inner {background-color: #000;}
-</style>
 
 <div class="container mt-5" style="overflow: auto;">
 	<div class="font-weight-bold mb-4 text-light mx-5 mt-2">Сегодня: <span id='timetoday'></span> , <span id="evenness"></span> <span id="ispause"></span></div>
