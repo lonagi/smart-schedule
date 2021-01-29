@@ -66,7 +66,7 @@ function dddd() {
 	var _2group_number2 = 3-_2group_number;
 
 	$(".asdn").attr("title","Гр. "+group_number);
-	$(".ac").attr("title","Гр. "+group_number);
+	$(".ac").attr("title","Гр. "+group_number2+" / Гр"+group_number);
 	$(".ep").attr("title","Гр. "+group_number2);
 
 	if(_now >= onehour*8 && _now <= onehour*9.5)
