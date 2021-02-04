@@ -33,8 +33,8 @@ function dddd() {
 	var week = Math.floor((ts1 - ts0)/oneweek*1000)+1;
 	var week2 = Math.floor((ts1 - ts0)/(oneweek*2)*1000)+1;
 
-	var start_week = new Date( (ts0+(week-1)*6*24*3600)*1000 );
-	var end_week = new Date(start_week.getTime()+6*oneday);
+	var start_week = new Date( (ts0+(week-1)*7*24*3600)*1000 );
+	var end_week = new Date(start_week.getTime()+7*oneday);
 
 	var day0 = start_week.getDate();
 	var month0 = start_week.getMonth()+1;
@@ -66,7 +66,7 @@ function dddd() {
 	var _2group_number2 = 3-_2group_number;
 
 	$(".asdn").attr("title","Гр. "+group_number);
-	$(".ac").attr("title","Гр. "+group_number2+" / Гр"+group_number);
+	$(".ac").attr("title","Гр. "+group_number2+" / Гр. "+group_number);
 	$(".ep").attr("title","Гр. "+group_number2);
 
 	if(_now >= onehour*8 && _now <= onehour*9.5)
