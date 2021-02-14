@@ -65,7 +65,7 @@ function dddd() {
 	var _2group_number = (week2%2)+2-2*(week2%2);
 	var _2group_number2 = 3-_2group_number;
 
-	$(".asdn").attr("title","Гр. "+group_number);
+	//$(".asdn").attr("title","Гр. "+group_number);
 	$(".ac").attr("title","Гр. "+group_number2+" / Гр. "+group_number);
 	$(".ep").attr("title","Гр. "+group_number2);
 
