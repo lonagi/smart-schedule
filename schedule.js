@@ -1,4 +1,4 @@
-var fst_september = new Date(1611360000000);
+var fst_september = new Date(1630454400000);
 
 var now = undefined;
 var ahour = undefined;
@@ -49,15 +49,15 @@ function dddd() {
     if(end_week.getMonth().toString().length == 1)
         month1 = '0'+month1;
     if(end_week.getDate().toString().length == 1)
-        day1 = '0'+day1; 
+        day1 = '0'+day1;
 
 
 	$("#timetoday").text("Неделя: "+day0+"."+month0+" - "+day1+"."+month1);
 	
 	if(week%2==0)
-		$("#evenness").html("<span class='text-info'>Нечётная</span>");
-	else
 		$("#evenness").html("<span class='text-danger'>Чётная</span>");
+	else
+		$("#evenness").html("<span class='text-info'>Нечётная</span>");
 
 	var group_number = (week%2)+2-2*(week%2);
 	var group_number2 = 3-group_number;
