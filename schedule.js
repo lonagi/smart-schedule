@@ -65,9 +65,23 @@ function dddd() {
 	var _2group_number = (week2%2)+2-2*(week2%2);
 	var _2group_number2 = 3-_2group_number;
 
-	//$(".asdn").attr("title","Гр. "+group_number);
-	$(".ac").attr("title","Гр. "+group_number2+" / Гр. "+group_number);
-	$(".ep").attr("title","Гр. "+group_number2);
+	$(".ltspcd").attr("title","Carbune / Lasco");
+	$(".lsav").attr("title","?");
+	$(".crc").attr("title","Moraru");
+	$(".cmipi").attr("title","Alexei");
+	$(".cts").attr("title","Sudacevschi");
+	$(".csav").attr("title","Bencheci");
+	$(".sts").attr("title","Carbune");
+	$(".smm").attr("title","Fedorenco");
+	$(".smipimm").attr("title","Alexei / Bogdanova");
+	$(".cts2").attr("title","Carbune");
+	$(".cpcd").attr("title","Rotaru");
+	$(".cmm").attr("title","Fedorenco");
+	$(".crcmm").attr("title","Moraru / Bogdanova");
+	$(".lmipi").attr("title","Struna");
+	$(".lpcd").attr("title","Subotchin");
+
+
 
 	if(_now >= onehour*8 && _now <= onehour*9.5)
 		ahour=2;
