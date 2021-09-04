@@ -1,4 +1,4 @@
-var fst_september = new Date(1630454400000);
+var fst_september = new Date(1630195200000);
 
 var now = undefined;
 var ahour = undefined;
@@ -65,8 +65,8 @@ function dddd() {
 	var _2group_number = (week2%2)+2-2*(week2%2);
 	var _2group_number2 = 3-_2group_number;
 
-	$(".ltspcd").attr("title","Carbune / Lasco");
-	$(".lsav").attr("title","?");
+	$(".ltspcd").attr("title","Carbune / Lasco \n Группа " + group_number2 + " / Группа " + group_number);
+	$(".lsav").attr("title","?\n Группа " + _2group_number);
 	$(".crc").attr("title","Moraru");
 	$(".cmipi").attr("title","Alexei");
 	$(".cts").attr("title","Sudacevschi");
@@ -78,8 +78,8 @@ function dddd() {
 	$(".cpcd").attr("title","Rotaru");
 	$(".cmm").attr("title","Fedorenco");
 	$(".crcmm").attr("title","Moraru / Bogdanova");
-	$(".lmipi").attr("title","Struna");
-	$(".lpcd").attr("title","Subotchin");
+	$(".lmipi").attr("title","Struna \n Группа " + group_number);
+	$(".lpcd").attr("title","Subotchin \n Группа " + group_number);
 
 
 
