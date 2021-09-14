@@ -66,7 +66,7 @@ function dddd() {
 	var _2group_number2 = 3-_2group_number;
 
 	$(".ltspcd").attr("title","Carbune / Lasco \n Группа " + group_number2 + " / Группа " + group_number);
-	$(".lsav").attr("title","?\n Группа " + _2group_number);
+	$(".lsav").attr("title","Capra G.");
 	$(".crc").attr("title","Moraru");
 	$(".cmipi").attr("title","Alexei");
 	$(".cts").attr("title","Sudacevschi");
