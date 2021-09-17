@@ -79,7 +79,7 @@ function dddd() {
 	$(".cmm").attr("title","Fedorenco");
 	$(".crcmm").attr("title","Moraru / Bogdanova");
 	$(".lmipi").attr("title","Struna \n Группа " + group_number);
-	$(".lpcd").attr("title","Subotchin \n Группа " + group_number);
+	$(".lpcd").attr("title","Subotchin \n Группа " + group_number2);
 
 
 
