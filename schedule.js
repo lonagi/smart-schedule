@@ -41,14 +41,14 @@ function dddd() {
 	var day1 = end_week.getDate();
 	var month1 = end_week.getMonth()+1;
 
-    if(start_week.getMonth().toString().length == 1)
+    if(month0.toString().length === 1)
         month0 = '0'+month0;
-    if(start_week.getDate().toString().length == 1)
+    if(day0.toString().length === 1)
         day0 = '0'+day0; 
 
-    if(end_week.getMonth().toString().length == 1)
+    if(month1.toString().length === 1)
         month1 = '0'+month1;
-    if(end_week.getDate().toString().length == 1)
+    if(day1.toString().length === 1)
         day1 = '0'+day1;
 
 
