@@ -66,20 +66,21 @@ function dddd() {
 	var _2group_number2 = 3-_2group_number;
 
 	$(".ltspcd").attr("title","Carbune / Lasco \n Группа " + group_number2 + " / Группа " + group_number);
-	$(".lsav").attr("title","Capra G.");
-	$(".crc").attr("title","Moraru");
-	$(".cmipi").attr("title","Alexei");
-	$(".cts").attr("title","Sudacevschi");
-	$(".csav").attr("title","Bencheci");
-	$(".sts").attr("title","Carbune");
-	$(".smm").attr("title","Fedorenco");
-	$(".smipimm").attr("title","Alexei / Bogdanova");
-	$(".cts2").attr("title","Carbune");
-	$(".cpcd").attr("title","Rotaru");
-	$(".cmm").attr("title","Fedorenco");
-	$(".crcmm").attr("title","Moraru / Bogdanova");
-	$(".lmipi").attr("title","Struna \n Группа " + group_number);
-	$(".lpcd").attr("title","Subotchin \n Группа " + group_number2);
+	$(".twpsr").attr("title","Gh.Țuțuianu / V.Lașco");
+	$(".pdppac").attr("title","V.Cărbune / V.Crețu");
+	$(".pdp").attr("title","V.Sudacevschi");
+	$(".psr").attr("title","V.Moraru");
+	$(".pdplab").attr("title","V.Cărbune");
+	$(".asolab").attr("title","V.Subotchin");
+	$(".aso").attr("title","L.Rotaru");
+	$(".pac").attr("title","I.Calmîcov");
+	$(".paclab").attr("title","V.Crețu");
+	$(".tw").attr("title","C.Bargan");
+	$(".psmlab").attr("title","Calmîcov I.");
+	$(".psmpac").attr("title","Calmîcov I. / V.Crețu");
+	$(".psmaso").attr("title","Calmîcov I. / V.Subotchin");
+	//$(".lmipi").attr("title","Struna \n Группа " + group_number);
+	//$(".lpcd").attr("title","Subotchin \n Группа " + group_number2);
 
 
 
