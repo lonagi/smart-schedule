@@ -65,18 +65,17 @@ function dddd() {
 	var _2group_number = (week2%2)+2-2*(week2%2);
 	var _2group_number2 = 3-_2group_number;
 
-	$(".ltspcd").attr("title","Carbune / Lasco \n Группа " + group_number2 + " / Группа " + group_number);
-	$(".twpsr").attr("title","Gh.Țuțuianu / V.Lașco");
+	$(".twpsr").attr("title","Gh.Țuțuianu \n Группа " + group_number + " / V.Lașco \n Группа " + group_number2);
 	$(".pdppac").attr("title","V.Cărbune / V.Crețu");
 	$(".pdp").attr("title","V.Sudacevschi");
 	$(".psr").attr("title","V.Moraru");
-	$(".pdplab").attr("title","V.Cărbune");
-	$(".asolab").attr("title","V.Subotchin");
+	$(".pdplab").attr("title","V.Cărbune \n Группа " + group_number2);
+	$(".asolab").attr("title","V.Subotchin \n Группа " + group_number);
 	$(".aso").attr("title","L.Rotaru");
 	$(".pac").attr("title","I.Calmîcov");
-	$(".paclab").attr("title","V.Crețu");
+	$(".paclab").attr("title","V.Crețu \n Группа " + group_number2);
 	$(".tw").attr("title","C.Bargan");
-	$(".psmlab").attr("title","Calmîcov I.");
+	$(".psmlab").attr("title","Calmîcov I. \n Группа " + group_number);
 	$(".psmpac").attr("title","Calmîcov I. / V.Crețu");
 	$(".psmaso").attr("title","Calmîcov I. / V.Subotchin");
 	//$(".lmipi").attr("title","Struna \n Группа " + group_number);
