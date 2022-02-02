@@ -65,7 +65,7 @@ function dddd() {
 	var _2group_number = (week2%2)+2-2*(week2%2);
 	var _2group_number2 = 3-_2group_number;
 
-	$(".twpsr").attr("title","Gh.Țuțuianu \n Группа " + group_number + " / V.Lașco \n Группа " + group_number2);
+	$(".twpsr").attr("title","Gh.Țuțuianu \n Группа " + group_number2 + " / V.Lașco \n Группа " + group_number);
 	$(".pdppac").attr("title","V.Cărbune / V.Crețu");
 	$(".pdp").attr("title","V.Sudacevschi");
 	$(".psr").attr("title","V.Moraru");
