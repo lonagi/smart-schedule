@@ -93,6 +93,10 @@ function dddd() {
 		ahour=5;
 	else if(_now >= onehour*15.25 && _now <= onehour*16.75)
 		ahour=6;
+	else if(_now >= onehour*17 && _now <= onehour*18.5)
+		ahour=7;
+	else if(_now >= onehour*18.75 && _now <= onehour*20.15)
+		ahour=8;
 	else if(_now >= onehour*8 || _now <= onehour*16.75)
 		$("#ispause").html('<span class="text-danger border border-danger p-2 ml-3">Перемена</span>');
 
