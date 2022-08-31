@@ -65,21 +65,40 @@ function dddd() {
 	var _2group_number = (week2%2)+2-2*(week2%2);
 	var _2group_number2 = 3-_2group_number;
 
-	$(".twpsr").attr("title","Gh.Țuțuianu \n Группа " + group_number2 + " / V.Lașco \n Группа " + group_number);
-	$(".pdppac").attr("title","V.Cărbune / V.Crețu");
-	$(".pdp").attr("title","V.Sudacevschi");
-	$(".psr").attr("title","V.Moraru");
-	$(".pdplab").attr("title","V.Cărbune \n Группа " + group_number2);
-	$(".asolab").attr("title","V.Subotchin \n Группа " + group_number);
-	$(".aso").attr("title","L.Rotaru");
-	$(".pac").attr("title","I.Calmîcov");
-	$(".paclab").attr("title","V.Crețu \n Группа " + group_number2);
-	$(".tw").attr("title","C.Bargan");
-	$(".psmlab").attr("title","Calmîcov I. \n Группа " + group_number);
-	$(".psmpac").attr("title","Calmîcov I. / V.Crețu");
-	$(".psmaso").attr("title","Calmîcov I. / V.Subotchin");
+	// $(".twpsr").attr("title","Gh.Țuțuianu \n Группа " + group_number2 + " / V.Lașco \n Группа " + group_number);
+	// $(".pdppac").attr("title","V.Cărbune / V.Crețu");
+	// $(".pdp").attr("title","V.Sudacevschi");
+	// $(".psr").attr("title","V.Moraru");
+	// $(".pdplab").attr("title","V.Cărbune \n Группа " + group_number2);
+	// $(".asolab").attr("title","V.Subotchin \n Группа " + group_number);
+	// $(".aso").attr("title","L.Rotaru");
+	// $(".pac").attr("title","I.Calmîcov");
+	// $(".paclab").attr("title","V.Crețu \n Группа " + group_number2);
+	// $(".tw").attr("title","C.Bargan");
+	// $(".psmlab").attr("title","Calmîcov I. \n Группа " + group_number);
+	// $(".psmpac").attr("title","Calmîcov I. / V.Crețu");
+	// $(".psmaso").attr("title","Calmîcov I. / V.Subotchin");
 	//$(".lmipi").attr("title","Struna \n Группа " + group_number);
 	//$(".lpcd").attr("title","Subotchin \n Группа " + group_number2);
+	$(".ipsem").attr("title","I.Coanda");
+	$(".iplab").attr("title","I.Coanda");
+	$(".ipc").attr("title","I.Coanda");
+	$(".aac").attr("title","Carbune");
+	$(".aalab").attr("title","Carbune");
+	$(".iac").attr("title","T.Bumbu");
+	$(".ialab").attr("title","St Golban");
+	$(".ttgesem").attr("title","O.Godonoga");
+	$(".ttgelab").attr("title","O.Godonoga");
+	$(".ttgec").attr("title","lu Turcan");
+	$(".asrcc").attr("title","Moraru");
+	$(".asrcsem").attr("title","Moraru");
+	$(".asrclab").attr("title","Mihailov");
+	$(".psilab").attr("title","Calmicov");
+	$(".psisem").attr("title","Calmicov");
+	$(".psic").attr("title","Calmicov");
+
+	$(".aaciac").attr("title","Carbune / Bumbu");
+
 
 
 
