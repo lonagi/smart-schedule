@@ -98,7 +98,7 @@ function dddd() {
 	$(".psic").attr("title","Calmicov");
 
 	$(".aaciac").attr("title","Carbune / Bumbu");
-	$(".asrcsemaac").attr("title","Moraru / Carbune");
+	$(".asrcsemaac").attr("title","Carbune / Moraru");
 
 
 	if(_now >= onehour*8 && _now <= onehour*9.5)
